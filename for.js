@@ -18,4 +18,16 @@ for (var roastGiven = 1; roastGiven <= 7; roastGiven++) {
 console.log('simple for loop')
 for (var i = 1; i <= 7; i++) {
     console.log(i);
-}  
+}
+
+for (var i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+for (var i = 1; i <= 10; i += 2) {
+    console.log(i);
+}
+
+for (var i = 2; i <= 10; i += 2) {
+    console.log(i);
+}
