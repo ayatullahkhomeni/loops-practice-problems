@@ -14,12 +14,29 @@ while (roastGiven < 10) {
     }
 } */
 
-var items = ['bottle', 'mouse', 'sunglass', 'pen']
-items.push('notebook');
-/* items.pop(); */
+
+// items.push('notebook');
+// items.pop();
+
+
+/* var items = ['bottle', 'mouse', 'sunglass', 'pen', 'notebook']
 for (var i = 0; i < items.length; i++) {
     var item = items[i];
-    if (item > 7) {
+
+    if (item == 'pen') {
+        break;
+
+    }
+    console.log(item);
+} */
+
+
+var numbers = [45, 87, 89, 56, 32, 51, 25, 144, 25];
+
+for (var i = 0; i < numbers.length; i++) {
+    var number = numbers[i]
+    if (number > 100) {
         break;
     }
-}   
+    console.log(number);
+} 
