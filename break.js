@@ -19,7 +19,7 @@ items.push('notebook');
 /* items.pop(); */
 for (var i = 0; i < items.length; i++) {
     var item = items[i];
-    if (item > 4) {
+    if (item > 7) {
         break;
     }
-} 
+}   
